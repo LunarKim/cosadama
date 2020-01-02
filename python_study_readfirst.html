@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>코사다마Cosadama: 파이썬 기초문법 스터디</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="created" content="2020-01-03T00:09:33+0900"/>
+        <meta name="modified" content="2020-01-03T02:13:10+0900"/>
+        <meta name="tags" content="03_study, 03_study/Coding"/>
+        <meta name="last device" content="Haram의 MacBook Pro"/>
+    </head>
+    <body>
+        <div class="note-wrapper">
+            <h1>코사다마Cosadama: 파이썬 기초문법 스터디</h1>
+<p><span class='hashtag'>#03_study/Coding</span></p>
+<br>
+<pre><code class='code-multiline'>import readmodule
+import writemodule
+
+def makerank(scorelist):
+    # 평균 리스트만 뽑기
+    averlist = []
+    for i in range(10):
+        averlist.append(int(scorelist[i][-1]))
+    averlist.sort()
+    averlist.reverse()
+
+    # 평균을 가지고 같은 순서대로 집어넣으면 정렬이 됨.
+    ranklist = []
+    for i in averlist:
+        for j in range(10):
+            if i == scorelist[j][-1]:
+                ranklist.append(scorelist[j])
+    return ranklist
+
+scorelist = readmodule.readdata()
+ranklist = makerank(scorelist)
+writemodule.makereport(ranklist)</code></pre>
+<p><br></p>
+<p>외계어 같아 보이시나요? 어려워보이지만, 그렇지 않습니다. 파이썬 기초 문법만 알아도 쉽게 위와 같은 코드를 쉽게 작성할 수 있습니다. 파이썬에 대해 들어보기만 한 분들도, 코딩을 1도 모른다고 하시는 분들도 쉽게 접근할 수 있는 프로그래밍 언어가 바로 파이썬python입니다. 여러분들을 파이썬의 무궁무진한 세계로 초대합니다🔅</p>
+<br>
+<pre><code class='code-multiline'># 코딩 + 사회학 = ? 
+def kosadama(your_name): 
+	return ‘sociology+coding=머박적’
+
+print(kosadama(you))</code></pre>
+<p><br></p>
+<p>사회학도들에게 감히 말합니다, <b>”사회학과 코딩의 만남은 머박적이라고.”</b> 현실을 새로운 시각으로 바라보는 사회학도들과 코딩이 만나면, 우선 현실적으로 취업의 문이 열립니다. 삼성과 LG에서는 비개발자 직군임에도 불구하고 면접관들이 코딩을 할 수 있냐는 질문을 해 화제가 된 적이 있습니다. 그만큼 코딩을 할 줄 안다는 것만으로도 여러분들은 취업에 한발짝 다가설 수 있습니다. </p>
+<p>또한 실증적 데이터를 다루는 사회학의 양적 방법 영역에서 충분히 활용될 수 있습니다. 사회조사방법론에서 배웠듯, 우리는 우리가 살아가는 세계에 대해 궁금증을 가지고, 궁금증에 기반해 가설을 세우고, 가설을 증명하기 위해 데이터들을 수집하고, 분석하고, 결과를 도출합니다. 가설을 설득력있게 제시하기 위해서는 그만큼 수많은 데이터들을 필요로 합니다. 코딩은 스몰데이터부터 빅데이터까지 손쉽고 빠르게 처리할 수 있도록 도움을 줍니다. 회사에 취업한다고 해도 데이터를 다루는 것은 마찬가지입니다. 본인이 일일이 다 데이터들을 처리하는 것이 아니라, 코딩만 알면 손쉽고 간편하게 업무의 자동화를 이루어낼 수 있고, 그만큼 업무의 효율은 높아집니다. </p>
+<p>그 외에도 코딩의 이점들을 무수히 많습니다.  코딩을 배움으로써 얻을 수 있는 이점들이 너무나 많은데, 어찌 코딩을 배우지 않을 수 있겠습니까?</p>
+<br>
+<ul><li><b>왜 많은 프로그래밍 언어 중 파이썬인가?</b> 
+</li></ul>
+<p><b>첫번째, 다른 프로그래밍 언어에 비해 문법이 쉬워 배우기 쉽습니다.</b> C언어, C++, JAVA의 코드를 한번 보세요. 파이썬은 그에 비해 배우기 쉬운 언어입니다.</p>
+<p><b>두번째, 파이썬은 간결하고 강력합니다.</b> 인간이 이해하기 쉬운 언어이며, 강력하고 좋은 외부 모듈이 많기 때문에 여러분들은 필요한 외부 모듈을 가져다 붙이기만 하면 됩니다. </p>
+<p><b>세번째, 파이썬을 다양한 분야에서 활용이 가능합니다.</b> 웹 프로그래밍, 데이터 분석, 사물인터넷, 수치연산/데이터베이스 프로그래밍, GUI 프로그래밍, 시스템 유틸리티 제작 등 활용되는 영역이 광활합니다. 현재 미국에서 가장 많이 쓰이는 언어일 정도로 많은 분야에서 활용되고 있습니다. </p>
+<br>
+<h4>코사다마Cosadama</h4>
+<p>코사다마는 <b>코딩과 사회학, 호사다마(好事多魔)의 합성어</b>로, 코딩을 배우는 데에는 수많은 피, 땀, 눈물이 들어가고 엉덩이가 눌러붙고, 매일 인공눈물을 달고 살아야 할 만큼 거친 풍파가 예상되지만, 결국에 여러분은 코딩천재(?)로 거듭난다는 뜻입니다. </p>
+<p>혼자하는 코딩공부는 정말로 외롭습니다. 함께 으쌰으쌰 코딩공부를 해봅시다. 미니 프로젝트들도 해보고, 사회과학 데이터들도 분석해보고, 부동산 동향도 예측해보고, 캐글 대회도 나가보고... 등 함께 하면 할 수 있는 일들이 더 많아집니다. </p>
+<p>방중 스터디가 성공적으로 마무리되면, 사회학 소모임으로 신청할 예정입니다. 여러분들의 깊은 관심과 참여를 부탁드립니다. </p>
+<br>
+<h4>코사다마Cosadama의 파이썬 기초 문법 스터디원 모집</h4>
+<p>코사다마Cosadama에서는 <b>2020년 1-2월 방중 파이썬 기초 문법 스터디</b>를 엽니다. <b>사회학과라면 학번에 상관없이 누구나 스터디 참여가 가능</b>합니다.(사회학과가 아니어도 연락주세요.) 파이썬을 배우겠다는 의지만 있으면 됩니다. 단, <b>개인 노트북은 반드시 필요</b>한 점 양해부탁드립니다. </p>
+<br>
+<ol start="1"><li>일시: 2020년 1월 3번째 주부터 2월 마지막 주까지
+</li><li>기간: 1주일 1회 3시간+ 오프라인 모임
+</li><li>목적: <b>코딩의 ‘ㅋ’, 파이썬의 ‘ㅍ’도 모르는 왕초보를 대상</b>으로 <b>파이썬 기초 문법을 함께 공부</b>합니다.
+</li><li>신청방법: 카카오톡 ID loveandjoy로 <b>이름/학번/코딩경험/스터디를 참여하기 원하는 이유</b>를 보내주시면, 코사다마의 슬랙 채널로 초대해드립니다.
+</li></ol>
+<br>
+<ul><li>파이썬 기초 문법 스터디 커리큘럼 
+</li></ul>
+<p>해당 커리큘럼은 2019년 2학기 김승태 교수님의 ‘비주얼 프로그래밍' 수업을 기반으로 합니다. 부교재로는 '점프 투 파이썬'을 사용할 예정입니다. </p>
+<br>
+<p>깃허브 주소를 누르시면, 구체적인 커리큘럼이 확인 가능합니다. </p>
+<br>
+<h4>파이썬 기초 문법 스터디 멘토 모집 </h4>
+<p><b>저와 함께 파이썬 기초 문법 스터디를 이끌어 갈 멘토를 모집</b>합니다. 아마 저보다 프로그래밍 능력이 출중하신 분들이 사회학과에 숨겨져 있을 것 같은데요, 함께 스터디도 이끌고, 저와 함께 넘파이numpy, 판다스pandas, 데이 터 시각화(matplotlib 등)도 더 공부해보고, 같이 미니 프로젝트들도 해보고, 캐글 대회도 나가보고, 머신러닝, 딥러닝도 같이 공부하고, 선형대수학도 배우고... 실은 저의 스터디 멤버를 찾고 싶습니다...흑. 카카오톡 ID로 신청해주시고, <b>꼭 멘토로 신청한다고 적어주세요.</b> 멘토분들은 사회학과가 아니어도 상관 없으니, 제발 연락주세요.</p>
+<br>
+
+        </div>
+        <script type="text/javascript">
+            (function() {
+
+    var doc_ols = document.getElementsByTagName("ol");
+
+    for ( i=0; i<doc_ols.length; i++) {
+
+        var ol_start = doc_ols[i].getAttribute("start") - 1;
+        doc_ols[i].setAttribute("style", "counter-reset:ol_counter " + ol_start + ";");
+
+    }
+
+})();
+
+        </script>
+        <style>
+            html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}html{font-size:87.5%;line-height:1.57143em}html{font-size:14px;line-height:1.6em;-webkit-text-size-adjust:100%}body{background:#fcfcfc;color:#545454;text-rendering:optimizeLegibility;font-family:"AvenirNext-Regular"}a{color:#de4c4f;text-decoration:none}h1{font-family:"AvenirNext-Medium";color:#333;font-size:1.6em;line-height:1.3em;margin-bottom:.78571em}h2{font-family:"AvenirNext-Medium";color:#333;font-size:1.3em;line-height:1em;margin-bottom:.62857em}h3{font-family:"AvenirNext-Medium";color:#333;font-size:1.15em;line-height:1em;margin-bottom:.47143em}p{margin-bottom:1.57143em;hyphens:auto}hr{height:1px;border:0;background-color:#dedede;margin:-1px auto 1.57143em auto}ul,ol{margin-bottom:.31429em}ul ul,ul ol,ol ul,ol ol{margin-bottom:0px}ol{counter-reset:ol_counter}ol li:before{content:counter(ol_counter) ".";counter-increment:ol_counter;color:#e06e73;text-align:right;display:inline-block;min-width:1em;margin-right:0.5em}b,strong{font-family:"AvenirNext-Bold"}i,em{font-family:"AvenirNext-Italic"}code{font-family:"Menlo-Regular"}.text-overflow-ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.sf_code_string,.sf_code_selector,.sf_code_attr-name,.sf_code_char,.sf_code_builtin,.sf_code_inserted{color:#D33905}.sf_code_comment,.sf_code_prolog,.sf_code_doctype,.sf_code_cdata{color:#838383}.sf_code_number,.sf_code_boolean{color:#0E73A2}.sf_code_keyword,.sf_code_atrule,.sf_code_rule,.sf_code_attr-value,.sf_code_function,.sf_code_class-name,.sf_code_class,.sf_code_regex,.sf_code_important,.sf_code_variable,.sf_code_interpolation{color:#0E73A2}.sf_code_property,.sf_code_tag,.sf_code_constant,.sf_code_symbol,.sf_code_deleted{color:#1B00CE}.sf_code_macro,.sf_code_entity,.sf_code_operator,.sf_code_url{color:#920448}.note-wrapper{max-width:46em;margin:0px auto;padding:1.57143em 3.14286em}.note-wrapper.spotlight-preview{overflow-x:hidden}u{text-decoration:none;background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%,#e06e73 50%);background-repeat:repeat-x;background-size:2px 2px;background-position:0 1.05em}s{color:#878787}p{margin-bottom:0.1em}hr{margin-bottom:0.7em;margin-top:0.7em}ul li{text-indent:-0.35em}ul li:before{content:"•";color:#e06e73;display:inline-block;margin-right:0.3em}ul ul{margin-left:1.25714em}ol li{text-indent:-1.45em}ol ol{margin-left:1.25714em}blockquote{display:block;margin-left:-1em;padding-left:0.8em;border-left:0.2em solid #e06e73}.todo-list ul{margin-left:1.88571em}.todo-list li{text-indent:-1.75em}.todo-list li:before{content:"";display:static;margin-right:0px}.todo-checkbox{text-indent:-1.7em}.todo-checkbox svg{margin-right:0.3em;position:relative;top:0.2em}.todo-checkbox svg #check{display:none}.todo-checkbox.todo-checked #check{display:inline}.todo-checkbox.todo-checked+.todo-text{text-decoration:line-through;color:#878787}.code-inline{display:inline;background:white;border:solid 1px #dedede;padding:0.2em 0.5em;font-size:0.9em}.code-multiline{display:block;background:white;border:solid 1px #dedede;padding:0.7em 1em;font-size:0.9em;overflow-x:auto}.hashtag{display:inline-block;color:white;background:#b8bfc2;padding:0.0em 0.5em;border-radius:1em;text-indent:0}.hashtag a{color:#fff}.address a{color:#545454;background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%,#0da35e 50%);background-repeat:repeat-x;background-size:2px 2px;background-position:0 1.05em}.address svg{position:relative;top:0.2em;display:inline-block;margin-right:0.2em}.color-preview{display:inline-block;width:1em;height:1em;border:solid 1px rgba(0,0,0,0.3);border-radius:50%;margin-right:0.1em;position:relative;top:0.2em;white-space:nowrap}.color-code{margin-right:0.2em;font-family:"Menlo-Regular";font-size:0.9em}.color-hash{opacity:0.4}.ordered-list-number{color:#e06e73;text-align:right;display:inline-block;min-width:1em}.arrow svg{position:relative;top:0.08em;display:inline-block;margin-right:0.15em;margin-left:0.15em}.arrow svg #rod{stroke:#545454}.arrow svg #point{fill:#545454}mark{color:inherit;display:inline;padding:0.2em 0.5em;background-color:#fcffc0}img{max-width:100%;height:auto}
+
+        </style>
+    </body>
+</html>
