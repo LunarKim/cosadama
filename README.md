@@ -12,19 +12,19 @@ Cosadama is the programming boot camp by sociology students of Chung-Ang univers
 
 ## __Audience__
 
-Our target audience for the COSADAMA is : 
+Our target audience for the __COSADAMA__ is : 
 
-Beginner of Beginner, a person who has just begun the python or says 'Python is just all greek to me'.
+Super python beginner , a person who has just begun the python or says 'Python is just all greek to me'.
 
 ## __Objectives__
 
 * Knowledge of python fundamentals, principles and grammar
 
-## __Curriculum__
+## __[Curriculum](/코사다마_파이썬기초문법스터디_커리큘럼.pdf)__
 
-* *Week 1* [What is python?](/week1)
-* *Week 2*
-* *Week 3*
+* *Week 1* [What is python?](/week1/코사다마_스터디_1주차_0113.pdf)
+* *Week 2*[List and Compound statements](/week2/코사다마_스터디_2주차_0120.pdf)
+* *Week 3*[Let's go further:Tuple, Dict, Set](코사다마_스터디_3주차_0127.pdf)
 * *Week 4*
 * *Week 5*
 * *Week 6*
