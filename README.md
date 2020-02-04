@@ -28,7 +28,7 @@ Super python beginner , a person who has just begun the python or says 'Python i
 
 * *Week 1* [What is python?](/week1/코사다마_스터디_1주차_0113.pdf)
 * *Week 2* [List and Compound statements](/week2/코사다마_스터디_2주차_0120.pdf)
-* *Week 3* [Let's go further:Tuple, Dict, Set](/코사다마_스터디_3주차_0127.pdf)
+* *Week 3* [Let's go further:Tuple, Dict, Set](/week3/코사다마_스터디_3주차_0127.pdf)
 * *Week 4*
 * *Week 5*
 * *Week 6*
