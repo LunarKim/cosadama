@@ -72,8 +72,7 @@ while True:
 
 # 과제 1
 f1 = open('test.txt','w')
-data = str(input("데이터를 입력하세요"))
-f1.write(data)
+f1.write('Life is too short')
 f1.close()
 f2 = open('test.txt','r')
 print(f2.read())
@@ -130,6 +129,7 @@ def voc():
 
     key = str(input('단어?')).lower()
     print('%s %s' % (key, voca[key]))
+	return voca
 
 # 과제 4
 dict = voc()
